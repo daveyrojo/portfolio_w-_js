@@ -1,0 +1,93 @@
+/* Sets background for body of page, and sides/top margins */
+body {
+    background-color:  rgba(0, 47, 255, 0.479);
+}
+/* Determines how the Name and Nav are styled */
+.header {
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+    background-color:rgba(17, 0, 255, 0.801);
+}
+/* Styles the h1 tag */
+.header h1 {
+    display: inline-block;
+    font-size: 50px;
+    margin-right: 25px;
+    text-decoration: underline;
+}
+
+/* Styles the links on the page */
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 50px;
+    font-size: 1.1em;
+}
+
+/* Center the subTitle tag */
+.subTitle {
+    text-align: center;
+}
+
+/* Styles the subtitle texts */
+h2 {
+    margin: 25px;
+    color: white;
+    text-decoration: underline;
+}
+
+/* Styles the profile pic */
+.dave-pic {
+    height: 25%;
+    width: 25%;
+    border-radius: 55%;
+    border: 10px double white;
+    margin-top: 10px;
+}
+
+/* Styles and positions the content of the sections */
+.content {
+    text-align: center;
+    color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+    line-height: 30px;
+    border-bottom: 3px double white;
+    border: 20px;
+    border-bottom: 3px double white;
+    padding-bottom: 2.5%;
+}
+
+/* Styles the place holder pictures in the page */
+#port-image {
+    width: 40%;
+    height: 45%;
+    border: 40%;
+    border-radius: 30px;
+    border: 4px solid white;
+    transition: transform .1s;
+}
+
+/* Makes the portfolio images enlarge on hover */
+#port-image:hover {
+    transform: scale(1.05);
+}
+
+/* Styles the contact info and the LinkedIn/GitHub links */
+.contact-content, .contact-content a {
+    text-align: center;
+    color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+    line-height: 30px;
+    padding-bottom: 2.5%;
+}
+
+/* Sets text size for pre elements */
+
+pre {
+    font-size: 1.2em;
+}
